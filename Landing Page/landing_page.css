@@ -1,0 +1,75 @@
+body {
+    /* background-color: #28282b; */
+    background-image: url("bgcollege7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	/* object-fit: cover; */
+
+}
+
+#navbar {
+    transition: background 0.75s 0.25s cubic-bezier(.17, .67, .83, .67);
+}
+
+/* #navbar:hover {
+    background-color: #28282b; 
+} */
+
+#navbar a{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #E4D1B9;
+    border-bottom: none;
+    padding-bottom: none;
+    transition: all 0.2s 0.1s cubic-bezier(.25, .1, .25, 1);
+}
+
+#navbar ul a:hover {
+    font-size: 1.3rem;
+    color: #FFF;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.20rem;
+}
+
+html {
+    height: 100%;
+}
+
+.content {
+    color: #FFF;
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #FC5404;
+}
+
+hr {
+    color: #28282b;
+    margin: 1rem auto;
+    width: 18rem;
+    height: 2rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid rgba(0, 0, 0, 1.0);
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    h1 {
+
+        font-size: 3.5rem;
+    }
+
+    hr {
+        width: 17rem;
+        margin: 1rem auto;
+    }
+}

@@ -1,0 +1,114 @@
+body {
+    background-image: url("bgcollege7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+label {
+    color: #4a4e69;
+}
+
+.btn {
+    background-color: #22223b;
+}
+
+.h1 {
+    color: #22223b;
+}
+
+.signin {
+    color: #9a8c98;
+}
+
+#navbar {
+    transition: background 0.75s 0.25s cubic-bezier(.17, .67, .83, .67);
+}
+
+/* #navbar:hover {
+    background-color: #28282b; 
+} */
+
+#navbar a {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #E4D1B9;
+    border-bottom: none;
+    padding-bottom: none;
+    transition: all 0.2s 0.1s cubic-bezier(.25, .1, .25, 1);
+}
+
+#navbar ul a:hover {
+    font-size: 1.26rem;
+    color: #FFF;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.20rem;
+}
+
+html {
+    height: 100%;
+}
+
+.form-outline {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-outline label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-outline input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-outline input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-outline.success input {
+    border-color: #2ecc71;
+}
+
+.form-outline.error input {
+    border-color: #e74c3c;
+}
+
+.form-outline i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form-outline.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-outline.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-outline small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-outline.error small {
+    visibility: visible;
+}
